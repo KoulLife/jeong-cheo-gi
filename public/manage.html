@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>정처기 문제 관리</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="logo" href="/">정처기</a>
+      <nav>
+        <a href="/">문제 풀기</a>
+        <a href="/manage.html" class="active">문제 관리</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>문제 관리</h1>
+    <p class="sub">항목을 만들고, 항목별로 문제와 답을 등록하세요.</p>
+
+    <section class="card">
+      <h2>항목</h2>
+      <form id="category-form" class="row" style="margin-bottom: 12px">
+        <input type="text" name="name" placeholder="예: 데이터베이스 구축" required>
+        <button class="primary">추가</button>
+      </form>
+      <ul id="category-list" class="list"></ul>
+    </section>
+
+    <section class="card">
+      <h2>문제 등록</h2>
+      <form id="question-form">
+        <label class="field"><span>항목</span><select name="categoryId" required></select></label>
+        <label class="field"><span>문제</span><textarea name="question" required></textarea></label>
+        <label class="field"><span>답</span><textarea name="answer" required></textarea></label>
+        <div class="actions"><button class="primary">등록</button></div>
+      </form>
+    </section>
+
+    <section class="card">
+      <div class="row" style="justify-content: space-between; margin-bottom: 12px">
+        <h2 style="margin: 0">문제 목록</h2>
+        <select id="filter" style="width: auto"></select>
+      </div>
+      <ul id="question-list" class="list"></ul>
+    </section>
+  </main>
+  <script src="api.js"></script>
+  <script src="manage.js"></script>
+</body>
+</html>
