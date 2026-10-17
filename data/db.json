@@ -1,0 +1,406 @@
+{
+  "categories": [
+    {
+      "id": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "name": "소프트웨어 개발 보안 구축"
+    },
+    {
+      "id": "7f385813-77cd-46d4-9453-a542850f337c",
+      "name": "응용 SW 기초 기술 활용"
+    },
+    {
+      "id": "0c3e63f8-5a74-43fd-898a-5c379f26c61a",
+      "name": "애플리케이션 테스트 관리"
+    },
+    {
+      "id": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "name": "서버 프로그램 구현"
+    }
+  ],
+  "questions": [
+    {
+      "id": "cecd6bb0-c131-4775-b9ea-8a91fa27ab3b",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "인가된 사용자만이 시스템 내의 정보와 자원에 접근할 수 있도록 보장하는 보안 요소는?",
+      "answer": "기밀성 (Confidentiality)"
+    },
+    {
+      "id": "3140207e-529e-47e7-8b73-46ce6bbf6f5b",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "오직 인가된 사용자만이 시스템 내의 정보를 수정할 수 있도록 보장하는 보안 요소는?",
+      "answer": "무결성 (Integrity)"
+    },
+    {
+      "id": "4829139b-6782-44b1-b2d6-5e2179fbb876",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "인가받은 사용자는 언제라도 시스템 내의 정보와 자원을 사용할 수 있음을 보장하는 보안 요소는?",
+      "answer": "가용성 (Availability)"
+    },
+    {
+      "id": "3451cf95-bcc4-4efb-b4c8-3ef548176c32",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "웹 응용 프로그램에 악의적인 SQL 문을 삽입하여 데이터베이스를 변조하거나 인증을 우회하는 공격 기법은?",
+      "answer": "SQL 삽입 (SQL Injection)"
+    },
+    {
+      "id": "ce52453b-361a-4416-a4a1-b434a4f109d4",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "복귀 주소와 변수 사이에 특정 값을 저장한 후 복귀 전에 이 값이 변경되었는지를 검사하여 복귀 주소 조작을 차단하는 기술은?",
+      "answer": "스택 가드 (Stack Guard)"
+    },
+    {
+      "id": "604e4f2c-ac63-4316-ada0-ef1a767e692f",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "1975년 미국 NBS에서 발표한 대칭키 암호화 알고리즘으로 블록 크기 64비트 키 길이 56비트 16회의 라운드를 수행하는 것은?",
+      "answer": "DES"
+    },
+    {
+      "id": "83d609f8-67d4-4323-8ea4-cc468ed45390",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "DES를 대신하여 2001년 미국 NIST에서 발표한 대칭키 블록 암호화 알고리즘으로 블록 크기는 128비트이며 키 길이에 따라 128 192 256으로 나뉘는 것은?",
+      "answer": "AES"
+    },
+    {
+      "id": "056eea8f-a8ec-4148-8b41-4c5e778b3019",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "큰 숫자를 소인수분해하기 어렵다는 수학적 원리에 기반하여 Rivest Shamir Adleman이 공동 개발한 대표적인 공개키 암호화 알고리즘은?",
+      "answer": "RSA"
+    },
+    {
+      "id": "f7ae8881-3e70-4fe5-8575-1f944964f50a",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "미국 국가안전보장국(NSA)에서 개발한 암호화 알고리즘으로 주로 음성 통신 장비(클리퍼 칩)에 내장되어 사용되는 것은?",
+      "answer": "Skipjack"
+    },
+    {
+      "id": "8122c544-2c68-4b03-8f31-6ca4aa8ecc29",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "기존 WEP의 보안 취약성을 보완하기 위해 패킷당 키 혼합 키 재설정 등의 관리 방식을 도입한 무선 랜 보안 프로토콜은?",
+      "answer": "TKIP"
+    },
+    {
+      "id": "25b533c9-7996-4c06-be9f-b8cc7f76f93a",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "사용자 인증(Authentication) 인가(Authorization) 과금(Accounting) 기능을 기반으로 시스템 자원 접근을 제어하고 감사하는 프로토콜/체계는?",
+      "answer": "AAA"
+    },
+    {
+      "id": "358b6c38-4e83-4237-9daf-de10e136bedd",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "규정 크기보다 큰 ICMP 패킷을 전송하여 수백 개의 패킷으로 분할시킨 뒤 수신 측에서 이를 재조합하는 과정에서 시스템을 다운시키는 공격은?",
+      "answer": "Ping of Death (죽음의 핑)"
+    },
+    {
+      "id": "9dd47e0e-42e1-4d7a-97ad-6768fedb3c8b",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "송신 IP 주소를 공격 대상(희생자)의 IP로 위조한 후 브로드캐스트 패킷을 다량 전송하여 네트워크 내 모든 호스트가 희생자에게 일제히 응답하게 만드는 공격은?",
+      "answer": "SMURFING (스머핑)"
+    },
+    {
+      "id": "e91741f3-dd6f-47cd-abb8-528a309e71ea",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "패킷을 전송할 때 송신 IP 주소와 수신 IP 주소를 모두 공격 대상의 IP로 동일하게 위조하여 시스템이 자신에게 계속 응답하며 무한 루프에 빠지게 하는 공격은?",
+      "answer": "LAND Attack"
+    },
+    {
+      "id": "b74be64c-a25c-4f2b-8e59-d2347a98fddb",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "다양한 보안 장비 및 네트워크 장비에서 발생하는 로그와 보안 이벤트를 통합 수집 분석 관리하는 빅데이터 기반의 통합 보안 관리 시스템은?",
+      "answer": "SIEM"
+    },
+    {
+      "id": "1de7f4f6-7235-4349-9643-322f44adb74b",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "정상적으로 맺어진 TCP 세션 사이에 끼어들어 송수신 시퀀스 번호를 가로챈 후 서버와의 연결을 빼앗아 무단 접속하는 공격 기법은?",
+      "answer": "세션 하이재킹 (Session Hijacking)"
+    },
+    {
+      "id": "5b1c0f24-cdcb-4d78-881b-0dd93ea4208a",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "ARP의 취약점을 이용하여 자신의 MAC 주소를 희생자나 라우터의 MAC 주소로 변조해 중간에서 패킷을 가로채거나 도청하는 기법은?",
+      "answer": "ARP 스푸핑 (ARP Spoofing)"
+    },
+    {
+      "id": "52fff6cd-aba3-4987-aca1-ed3b0ce3e6b0",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "네트워크 중간에서 오고 가는 남의 패킷 정보를 엿보고 도청하는 대표적인 수동적(Passive) 공격 기법은?",
+      "answer": "스니핑 (Sniffing)"
+    },
+    {
+      "id": "dd50970f-e211-4d7c-b0e8-c29f55d8fd3f",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "공격 대상이 주로 방문하는 합법적인 웹사이트를 사전에 감염시킨 후 방문하기를 기다렸다가 악성코드에 감염시키는 타깃형 공격은?",
+      "answer": "워터링 홀 (Watering Hole)"
+    },
+    {
+      "id": "98b3259d-d96c-4116-9646-65e6f809d389",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "인터넷 사용자가 접속하려는 도메인의 오타나 철자 실수를 미리 등록해 두고 해당 주소로 유입되는 사용자를 피싱 사이트로 연결하는 공격은?",
+      "answer": "타이포스쿼팅 (Typosquatting)"
+    },
+    {
+      "id": "7f8adcd1-8836-4a2e-b08c-69e0a4c96274",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "컴퓨터 사용자의 문서를 암호화하여 열지 못하게 만든 후 암호 해독용 복호화 키나 프로그램 제공을 대가로 금전을 요구하는 악성 프로그램은?",
+      "answer": "랜섬웨어 (Ransomware)"
+    },
+    {
+      "id": "c9e2d8c0-f98a-44b9-b0b4-069124d2b32b",
+      "categoryId": "de6fe0ed-706a-4c4b-81ab-ba3898bc0812",
+      "question": "시스템 설계자나 관리자가 유지보수 및 편의를 위해 만들어 둔 비밀 통로로 인증 절차를 우회하여 접속할 수 있는 진입 경로는?",
+      "answer": "백도어 (Back Door / Trap Door)"
+    },
+    {
+      "id": "7b9149e3-de34-41c6-9af7-61d5e6b4b890",
+      "categoryId": "7f385813-77cd-46d4-9453-a542850f337c",
+      "question": "실행 시간이 가장 짧은 프로세스에게 먼저 CPU를 할당하는 비선점형 스케줄링 기법은?",
+      "answer": "SJF (Shortest Job First)"
+    },
+    {
+      "id": "18f344bb-c9be-4c03-b2d8-8bb2e98639ed",
+      "categoryId": "7f385813-77cd-46d4-9453-a542850f337c",
+      "question": "대기 시간과 서비스 실행 시간을 이용하는 기법으로, 실행 시간이 긴 프로세스가 불리한 SJF의 단점을 보완한 비선점형 스케줄링 기법은?",
+      "answer": "HRN (Highest Response-ratio Next)"
+    },
+    {
+      "id": "8893948e-fc76-4980-8fff-1c09a2d0a48e",
+      "categoryId": "7f385813-77cd-46d4-9453-a542850f337c",
+      "question": "프로세스가 시간 할당량 동안만 실행한 후 다음 프로세스에게 CPU 넘겨주는 기법으로, 실행이 끝나지 않은 프로세스는 준비 상태 큐의 맨 뒤로 가는 선점형 스케줄링 기법은?",
+      "answer": "RR (Round Robin)"
+    },
+    {
+      "id": "24ad3449-de10-4150-aa6d-ba4382cbf2df",
+      "categoryId": "7f385813-77cd-46d4-9453-a542850f337c",
+      "question": "실행중인 프로세스의 남은 시간과 준비 상태 큐에 새로 도착한 프로세스의 실행 시간을 비교하여 가장 짧은 실행 시간을 요구하는 프로세스에게 CPU 할당하는 선점형 스케줄링 기법은?",
+      "answer": "SRT (Shortest Remaining Time)"
+    },
+    {
+      "id": "53d6c3da-634b-4b78-96a0-48e74f1888b4",
+      "categoryId": "0c3e63f8-5a74-43fd-898a-5c379f26c61a",
+      "question": "상향식 통합 테스트에서 사용하는 도구로, 테스트 대상의 하위 모듈을 호출하고, 파라미터를 전달하고, 모듈 테스트 수행 후의 결과 도출하는 도구는?",
+      "answer": "테스트 드라이버 (Test Driver)"
+    },
+    {
+      "id": "ad0e2b27-8307-4302-b0a9-ca4a65d3c146",
+      "categoryId": "0c3e63f8-5a74-43fd-898a-5c379f26c61a",
+      "question": "하향식 통합 테스트에서 사용하는 도구로, 제어 모듈이 호출하는 타 모듈의 기능을 단순히 수행하는 도구는?",
+      "answer": "스텁 (Stub)"
+    },
+    {
+      "id": "07e9a4c3-b878-4066-899e-3497cd5d09fb",
+      "categoryId": "0c3e63f8-5a74-43fd-898a-5c379f26c61a",
+      "question": "통합 테스트로 인해 변경된 모듈이나 컴포넌트에 새로운 오류가 있는지 확인하는 테스트는?",
+      "answer": "회귀 테스트 (Regression Test)"
+    },
+    {
+      "id": "b0c0293f-7f4f-44f5-93df-d98c3b1027f1",
+      "categoryId": "0c3e63f8-5a74-43fd-898a-5c379f26c61a",
+      "question": "테스트 결과가 올바른지 판단하기 위해 사전에 정의된 참값을 대입하여 비교하는 기법은?",
+      "answer": "테스트 오라클 (Test Oracle)"
+    },
+    {
+      "id": "7b309313-c635-4033-b184-c8a27d34cacb",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "모듈 간의 관계 및 인터페이스를 설계할 때 참조할 수 있는 전형적인 해결 방식 또는 예제로, 문제 및 배경, 실제 적용된 사례, 재사용이 가능한 샘플 코드 등으로 구성되어 있는 것은?",
+      "answer": "디자인 패턴 (Design Pattern)"
+    },
+    {
+      "id": "e11ebe4d-533d-45cd-98f7-804d13e01fde",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "GoF 디자인 패턴 중 클래스나 객체의 생성과 참조 과정을 정의하는 패턴은?",
+      "answer": "생성 패턴 (Creational Pattern)"
+    },
+    {
+      "id": "614bfb70-8d49-4172-8e81-8d1e28ffff5c",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "GoF 디자인 패턴 중 구조가 복잡한 시스템을 개발하기 쉽도록 클래스나 객체들을 조합하여 더 큰 구조로 만드는 패턴은?",
+      "answer": "구조 패턴 (Structural Pattern)"
+    },
+    {
+      "id": "e7bcba7d-9809-4b30-86cc-11d72ce2d2ad",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "GoF 디자인 패턴 중 클래스나 객체들이 서로 상호작용하는 방법이나 책임 분배 방법을 정의하는 패턴은?",
+      "answer": "행위 패턴 (Behavioral Pattern)"
+    },
+    {
+      "id": "6c83080d-578e-49db-b5dc-a5e69f2aeae2",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "구체적인 클래스에 의존하지 않고, 인터페이스를 통해 서로 연관·의존하는 객체들의 그룹으로 생성하여 추상적으로 표현하며, 연관된 서브 클래스를 묶어 한 번에 교체하는 것이 가능한 패턴은?",
+      "answer": "추상 팩토리 (Abstract Factory)"
+    },
+    {
+      "id": "566aaea3-39bb-4ba2-b82e-e1bc27450311",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "작게 분리된 인스턴스를 건축 하듯이 조합하여 객체를 생성하며, 객체의 생성 과정과 표현 방법을 분리하고 있어 동일한 객체 생성에서도 서로 다른 결과를 만들어 낼 수 있는 패턴은?",
+      "answer": "빌더 (Builder)"
+    },
+    {
+      "id": "89fa3f4b-80e8-4199-8103-0d73515d0ebe",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "객체 생성을 서브 클래스에서 처리하도록 분리하여 캡슐화한 패턴으로, 상위 클래스에서 인터페이스만 정의하고 실제 생성은 서브 클래스가 담당하며, 가상 생성자(Virtual Constructor) 패턴이라고도 하는 것은?",
+      "answer": "팩토리 메소드 (Factory Method)"
+    },
+    {
+      "id": "47a7fce6-c531-43b8-bebf-9d39013e0084",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "원본 객체를 복제하는 방법으로 객체를 생성하는 패턴으로, 일반적인 방법으로 객체를 생성하며 비용이 큰 경우 주로 이용하는 것은?",
+      "answer": "프로토타입 (Prototype)"
+    },
+    {
+      "id": "4f6ba1b1-e5f7-4d2b-b333-b6ef1827d606",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "하나의 객체를 생성하면 생성된 객체를 어디서든 참조할 수 있지만 여러 프로세스가 동시에 참조할 수는 없으며, 클래스 내에서 인스턴스가 하나뿐임을 보장하여 불필요한 메모리 낭비를 최소화 할 수 있는 패턴은?",
+      "answer": "싱글톤 (Singleton)"
+    },
+    {
+      "id": "c1c9caec-4110-417e-afb9-04f58f0688fc",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "호환성이 없는 클래스들의 인터페이스를 다른 클래스가 이용할 수 있도록 변환해주는 패턴으로, 기존의 클래스를 이용하고 싶지만 인터페이스가 일치하지 않을 때 이용하는 것은?",
+      "answer": "어댑터 (Adapter)"
+    },
+    {
+      "id": "d982a4e7-b8fb-4242-b068-272cf1e59d36",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "구현부에서 추상층을 분리하여 서로가 독립적으로 확장할 수 있도록 구성한 패턴으로, 기능과 구현을 두 개의 별도 클래스로 구현하는 것은?",
+      "answer": "브리지 (Bridge)"
+    },
+    {
+      "id": "f166ef56-02c6-4310-b625-44794817070b",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "여러 객체를 가진 복합 객체와 단일 객체를 구분 없이 다루고자 할 때 사용하는 패턴으로, 객체들을 트리 구조로 구성하여 디렉터리 안에 디렉터리가 있듯이 복합 객체 안에 복합 객체가 포함되는 구조를 구현할 수 있는 것은?",
+      "answer": "컴포지트 (Composite)"
+    },
+    {
+      "id": "3d90b27d-152e-44bb-bef5-b7292289d35c",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "객체 간의 결합을 통해 능동적으로 기능들을 확장할 수 있는 패턴으로, 임의의 객체에 부가적인 기능을 추가하기 위해 다른 객체들을 덧붙이는 방식으로 구현하는 것은?",
+      "answer": "데코레이터 (Decorator)"
+    },
+    {
+      "id": "11c7a41b-1c7d-4e39-bebb-25ea52eea896",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "복잡한 서브 클래스들을 피해 더 상위에 인터페이스를 구성함으로써 서브 클래스들의 기능을 간편하게 사용할 수 있도록 하는 패턴으로, 서브 클래스들 사이의 통합 인터페이스를 제공하는 Wrapper 객체가 필요한 것은?",
+      "answer": "퍼싸드 (Facade)"
+    },
+    {
+      "id": "222da0c3-303d-437b-9c2b-7fdd954cc73e",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "인스턴스가 필요할 때마다 매번 생성하는 것이 아니고 가능한 한 공유해서 사용함으로써 메모리를 절약하는 패턴으로, 다수의 유사 객체를 생성하거나 조작할 때 유용하게 사용할 수 있는 것은?",
+      "answer": "플라이웨이트 (Flyweight)"
+    },
+    {
+      "id": "a95f5cba-dc0c-46c2-aaba-fa3253991cf5",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "복잡한 시스템을 개발하기 쉽도록 클래스나 객체들을 조합하는 패턴으로, 내부에서는 객체 간의 복잡한 관계를 단순하게 정리해 주고, 외부에서는 객체의 세부적인 내용을 숨겨주는 역할을 수행하며, 대리자라고도 불리는 것은?",
+      "answer": "프록시 (Proxy)"
+    },
+    {
+      "id": "ac4ab61c-582c-4f7f-afaa-719c2fcb641f",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "요청을 처리할 수 있는 객체가 둘 이상 존재하여 한 객체가 처리하지 못하면 다음 객체로 넘어가는 형태의 패턴으로, 요청을 처리할 수 있는 각 객체들이 고리(Chain)로 묶여 있어 요청이 해결될 때까지 고리를 따라 책임이 넘어가는 것은?",
+      "answer": "책임 연쇄 (Chain of Responsibility)"
+    },
+    {
+      "id": "b39fe31c-ab97-4c06-ab92-033396ffcc6a",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "요청을 객체의 형태로 캡슐화하여 재이용하거나 취소할 수 있도록 요청에 필요한 정보를 저장하거나 로그에 남기는 패턴으로, 요청에 사용되는 각종 명령어들을 추상 클래스와 구체 클래스로 분리하여 단순화하는 것은?",
+      "answer": "커맨드 (Command)"
+    },
+    {
+      "id": "b47bec2e-ef2d-43fc-95a0-933e86726993",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "언어에 문법 표현을 정의하는 패턴으로, SQL이나 통신 프로토콜과 같은 것을 개발할 때 사용하는 것은?",
+      "answer": "인터프리터 (Interpreter)"
+    },
+    {
+      "id": "3fcf4ada-4fc9-4267-8c38-5c51573f6965",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "자료 구조와 같이 접근이 잦은 객체에 대해 동일한 인터페이스를 사용하도록 하는 패턴으로, 내부 표현 방법의 노출 없이 순차적인 접근이 가능한 것은?",
+      "answer": "반복자 (Iterator)"
+    },
+    {
+      "id": "894cb9d1-f2cb-4778-8e57-f45e105570af",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "수많은 객체들 간의 복잡한 상호작용(Interface)을 캡슐화하여 객체로 정의하는 패턴으로, 객체 사이의 의존성을 줄여 결합도를 감소시킬 수 있는 것은?",
+      "answer": "중재자 (Mediator)"
+    },
+    {
+      "id": "8bb502c8-4078-43f8-a921-3910f1db4177",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "특정 시점에서의 객체 내부 상태를 객체화함으로써 이후 요청에 따라 객체를 해당 시점의 상태로 돌릴 수 있는 기능을 제공하는 패턴으로, Ctrl+Z와 같은 되돌리기 기능을 개발할 때 주로 이용하는 것은?",
+      "answer": "메멘토 (Memento)"
+    },
+    {
+      "id": "5df65746-e67f-4ddb-9db1-e1037d527600",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "한 객체의 상태가 변화하면 객체에 상속되어 있는 다른 객체들에게 변화된 상태를 전달하는 패턴으로, 일대다의 의존성을 정의하며 주로 분산된 시스템 간에 이벤트를 생성·발행(Publish)하고 이를 수신(Subscribe)해야 할 때 이용하는 것은?",
+      "answer": "옵서버 (Observer)"
+    },
+    {
+      "id": "06af41cc-780c-4015-8daf-0f9532f275cd",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "객체의 상태에 따라 동일한 동작을 다르게 처리해야 할 때 사용하는 패턴으로, 객체 상태를 캡슐화하고 이를 참조하는 방식으로 처리하는 것은?",
+      "answer": "상태 (State)"
+    },
+    {
+      "id": "29c78702-7e6c-42c4-b7d6-e06d1ca8ca08",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "동일한 계열의 알고리즘들을 개별적으로 캡슐화하여 상호 교환할 수 있게 정의하는 패턴으로, 클라이언트는 독립적으로 원하는 알고리즘을 선택하여 사용할 수 있으며 클라이언트에 영향 없이 알고리즘의 변경이 가능한 것은?",
+      "answer": "전략 (Strategy)"
+    },
+    {
+      "id": "08c3923a-b4b2-4a8b-8474-5c8d6e1505b9",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "상위 클래스에서 골격을 정의하고, 하위 클래스에서 세부 처리를 구체화하는 구조의 패턴으로, 유사한 서브 클래스를 묶어 공통된 내용을 상위 클래스에서 정의함으로써 코드의 양을 줄이고 유지보수를 용이하게 해주는 것은?",
+      "answer": "템플릿 메소드 (Template Method)"
+    },
+    {
+      "id": "5c906c9d-27b5-44b4-82c5-e66f9c14c91e",
+      "categoryId": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
+      "question": "각 클래스들의 데이터 구조에서 처리 기능을 분리하여 별도의 클래스로 구성하는 패턴으로, 분리된 처리 기능은 각 클래스를 방문(Visit)하여 수행하는 것은?",
+      "answer": "방문자 (Visitor)"
+    },
+    {
+      "id": "48ad3bff-fe25-4268-9306-c01c999b4178",
+      "categoryId": "7f385813-77cd-46d4-9453-a542850f337c",
+      "question": "OSI 7계층의 전송 계층에 해당하며, 신뢰성 있는 연결형 서비스를 제공하고 패킷의 다중화, 순서 제어, 오류 제어, 흐름 제어 기능을 제공하는 프로토콜은?",
+      "answer": "TCP (Transmission Control Protocol)"
+    },
+    {
+      "id": "d449a545-1112-43f6-b5db-dbc68f4d4c40",
+      "categoryId": "7f385813-77cd-46d4-9453-a542850f337c",
+      "question": "OSI 7계층의 네트워크 계층에 해당하며, 비연결형 서비스를 제공하고 패킷의 분해/조립, 주소 지정, 경로 선택 기능을 제공하는 프로토콜은?",
+      "answer": "IP (Internet Protocol)"
+    },
+    {
+      "id": "89f39550-6956-4966-806f-2fb3e98ddae3",
+      "categoryId": "7f385813-77cd-46d4-9453-a542850f337c",
+      "question": "데이터 전송 전에 연결을 설정하지 않는 비연결형 서비스를 제공하는 전송 계층 프로토콜로, TCP에 비해 신뢰성은 낮지만 전송 속도가 빠른 것은?",
+      "answer": "UDP (User Datagram Protocol)"
+    },
+    {
+      "id": "53750ef1-f4aa-45f7-b164-f16898efd7fb",
+      "categoryId": "7f385813-77cd-46d4-9453-a542850f337c",
+      "question": "데이터 링크 계층에서 동작하는 터널링 프로토콜로, 자체적으로 암호화 및 인증 기능을 제공하지 않아 다른 보안 프로토콜과 함께 사용되는 경우가 많은 것은?",
+      "answer": "L2TP (Layer 2 Tunneling Protocol)"
+    },
+    {
+      "id": "ed7a7833-8dd2-48c0-a10a-26d19471a425",
+      "categoryId": "7f385813-77cd-46d4-9453-a542850f337c",
+      "question": "IP와 조합하여 통신중에 발생하는 오류의 처리와 전송 경로 변경 등을 위한 제어 메시지를 관리하는 역할을 하는 프로토콜은?",
+      "answer": "ICMP (Internet Control Message Protocol)"
+    },
+    {
+      "id": "2e840298-2913-4419-8974-684371d13c8b",
+      "categoryId": "7f385813-77cd-46d4-9453-a542850f337c",
+      "question": "호스트의 IP 주소를 호스트와 연결된 네트워크 접속 장치의 물리적 주소로 변환하는 프로토콜은?",
+      "answer": "ARP (Address Resolution Protocol)"
+    },
+    {
+      "id": "5e6ba01d-302e-47e6-80fb-40157d0c6d92",
+      "categoryId": "7f385813-77cd-46d4-9453-a542850f337c",
+      "question": "호스트의 물리적 주소를 IP 주소로 변환하는 프로토콜은?",
+      "answer": "RARP (Reverse Address Resolution Protocol)"
+    }
+  ]
+}

@@ -66,6 +66,15 @@ PORT=8080 DATA_FILE=/var/lib/jeong-cheo-gi/db.json npm start
 
 모든 데이터는 `DATA_FILE` 경로의 JSON 파일 하나에 저장돼요. 파일이 없으면 처음 저장할 때 자동으로 만들어져요.
 
+저장소에는 실기 대비 기본 문제가 `data/db.json`에 들어 있어서, 받자마자 바로 풀어볼 수 있어요.
+
+| 항목 | 문제 수 |
+|---|---|
+| 소프트웨어 개발 보안 구축 | 22 |
+| 응용 SW 기초 기술 활용 | 11 |
+| 애플리케이션 테스트 관리 | 4 |
+| 서버 프로그램 구현 | 27 |
+
 ```json
 {
   "categories": [{ "id": "…", "name": "데이터베이스 구축" }],
@@ -102,6 +111,7 @@ PORT=8080 DATA_FILE=/var/lib/jeong-cheo-gi/db.json npm start
 ```
 ├── server.js          Express 서버 (정적 파일 + REST API)
 ├── src/store.js       JSON 파일 저장소
+├── data/db.json       문제 데이터
 ├── public/            프론트엔드 (빌드 없는 바닐라 JS)
 │   ├── index.html     문제 풀기
 │   ├── manage.html    문제 관리
