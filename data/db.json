@@ -15,6 +15,18 @@
     {
       "id": "467bedc0-df9c-4ac5-b15f-1e8de48055d8",
       "name": "서버 프로그램 구현"
+    },
+    {
+      "id": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "name": "실기 족보"
+    },
+    {
+      "id": "f4764e5f-4042-445f-b102-52b1a57a808f",
+      "name": "HDLC"
+    },
+    {
+      "id": "56ab5fce-fcac-4835-bcb7-d0b25657e60a",
+      "name": "비기능 요구사항"
     }
   ],
   "questions": [
@@ -401,6 +413,954 @@
       "categoryId": "7f385813-77cd-46d4-9453-a542850f337c",
       "question": "호스트의 물리적 주소를 IP 주소로 변환하는 프로토콜은?",
       "answer": "RARP (Reverse Address Resolution Protocol)"
+    },
+    {
+      "id": "014b0ffe-99a7-4510-80fa-57fe43e3bff2",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "동일한 테스트 케이스에 의한 반복적 테스트는 새로운 버그를 찾지 못한다는 테스트의 원리는?",
+      "answer": "살충제 패러독스 (Pesticide Paradox)"
+    },
+    {
+      "id": "0d1f898a-6683-4384-99e4-72fc7be7046f",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "대규모로 저장된 데이터 안에서 체계적이고 자동적으로 통계적 규칙이나 패턴을 찾아내는 기술로, 수많은 데이터에서 가치 있는 유용한 정보를 찾아내는 것은?",
+      "answer": "데이터 마이닝 (Data Mining)"
+    },
+    {
+      "id": "63630285-bcd6-4ffc-9eea-f9464e5c8797",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "송·수신 시스템 간 데이터 연계의 편의성을 위해서 전송되는 데이터 구조를 동일한 형태로 정의하는 마크업 언어는?",
+      "answer": "XML (eXtensible Markup Language)"
+    },
+    {
+      "id": "171f5cf4-5ced-4323-ad32-602fb8520fad",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "비동기 브라우저·서버 통신(AJAX)을 위해 '속성-값 쌍', '키-값 쌍'으로 이루어진 데이터 오브젝트를 전달하기 위해 인간이 읽을 수 있는 텍스트를 사용하는 개방형 표준 포맷은?",
+      "answer": "JSON (JavaScript Object Notation)"
+    },
+    {
+      "id": "c8e7e110-edf5-46dd-a262-da1f62f6ff95",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "출발지(Source) IP와 목적지(Destination) IP를 같은 패킷 주소로 만들어 보냄으로써 수신자가 자기 자신에게 응답을 보내게 하여 시스템의 가용성을 침해하는 공격 기법은?",
+      "answer": "랜드 어택 (Land Attack)"
+    },
+    {
+      "id": "4f370490-bc05-4d1f-a9bb-5955f5b11ca0",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "브라우저가 가지고 있는 XMLHttpRequest 객체를 이용해서 전체 페이지를 새로 고치지 않고도 페이지 일부만을 위한 데이터를 로드하는 비동기 통신 기법은?",
+      "answer": "AJAX (Asynchronous JavaScript and XML)"
+    },
+    {
+      "id": "63337816-62cc-4152-8fb4-dd0aa83e9a98",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "HTTP, HTTPS, SMTP 등을 사용하여 XML 기반의 메시지를 네트워크 상에서 교환하는 프로토콜은?",
+      "answer": "SOAP (Simple Object Access Protocol)"
+    },
+    {
+      "id": "67749d38-4661-4441-84ef-a2f5e6fc8aa6",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "웹상에 존재하는 데이터를 개별 URI(Uniform Resource Identifier)로 식별하고, 각 URI에 링크 정보를 부여함으로써 상호 연결된 웹을 지향하는 데이터는?",
+      "answer": "LOD (Linked Open Data)"
+    },
+    {
+      "id": "3a0902c0-ad41-45b1-8536-24d873b20797",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "복수의 컴퓨터 사이에서 데이터 통신을 원활하게 하기 위해 필요한 통신 규약은?",
+      "answer": "프로토콜 (Protocol)"
+    },
+    {
+      "id": "3af5355b-ae13-45c7-9218-c6a5dbdde1ce",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "프로토콜의 3요소는?",
+      "answer": "구문(Syntax), 의미(Semantic), 타이밍(Timing)"
+    },
+    {
+      "id": "13190814-217f-4579-b952-4c1b5bdaa3ba",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "프로토콜의 3요소 중 시스템 간의 정보 전송을 위한 데이터 형식, 코딩, 신호 레벨 등을 규정하는 것은?",
+      "answer": "구문 (Syntax)"
+    },
+    {
+      "id": "51e59a7f-8556-4d14-8ad3-ede9d1d783ef",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "프로토콜의 3요소 중 시스템 간의 정보 전송을 위한 제어 정보로 조정과 에러 처리를 위한 규정은?",
+      "answer": "의미 (Semantic)"
+    },
+    {
+      "id": "420108ca-ebdd-438b-b2af-072448d649bd",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "프로토콜의 3요소 중 시스템 간의 정보 전송을 위한 속도 조절과 순서 관리 규정은?",
+      "answer": "타이밍 (Timing)"
+    },
+    {
+      "id": "18d5d61b-8ffe-4171-a3f9-a6b928f4d0cd",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "하나의 프로세스가 끝나지 않으면 다른 프로세스는 CPU를 사용할 수 없는 스케줄링 방식은?",
+      "answer": "비선점형 스케줄링 (Non-Preemptive Scheduling)"
+    },
+    {
+      "id": "aca377f3-302f-4d61-a518-bc70856a95b2",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "비선점형 스케줄링 중 프로세스별로 우선순위가 주어지고, 우선순위에 따라 CPU를 할당하는 기법은?",
+      "answer": "우선순위 (Priority)"
+    },
+    {
+      "id": "35c662b7-b8b7-4237-94ff-862d606eae93",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "비선점형 스케줄링 중 작업들이 명시된 시간이나 기한 내에 완료되도록 계획하는 기법은?",
+      "answer": "기한부 (Deadline)"
+    },
+    {
+      "id": "bc684a7d-6552-4230-a25f-f05145a81ed8",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "비선점형 스케줄링 중 프로세스가 대기 큐에 도착한 순서에 따라 CPU를 할당하는 기법은?",
+      "answer": "FCFS (First Come First Service)"
+    },
+    {
+      "id": "beb7a525-78b5-46f2-9da7-d6eae91da303",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "비선점형 스케줄링 중 프로세스가 도착하는 시점에 따라 그 당시 가장 작은 서비스 기간을 갖는 프로세스가 종료까지 자원을 점유하는 기법은?",
+      "answer": "SJF (Shortest Job First)"
+    },
+    {
+      "id": "73300b31-53ba-46c0-bdd5-03a3c38bab57",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "비선점형 스케줄링 중 대기 중인 프로세스 중 현재 응답률이 가장 높은 것을 선택하며, 응답률을 (대기 시간 + 서비스 시간) / 서비스 시간으로 계산하는 기법은?",
+      "answer": "HRN (Highest Response Ratio Next)"
+    },
+    {
+      "id": "3ba0fe54-6c81-45cb-b5a9-b468311215e8",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "하나의 프로세스가 다른 프로세스 대신에 프로세서(CPU)를 차지할 수 있는 스케줄링 방식은?",
+      "answer": "선점형 스케줄링 (Preemptive Scheduling)"
+    },
+    {
+      "id": "5e19d8b0-f5e0-4d5d-8273-09f4e185cd01",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "선점형 스케줄링 중 시분할 시스템에서 사용하며, FCFS와 비슷하지만 제한시간이 지난 후 다음 프로세스에게 자원을 할당하는 기법은?",
+      "answer": "RR (Round Robin)"
+    },
+    {
+      "id": "54daa9c0-5dfb-4d02-a696-1815325d4cf3",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "선점형 스케줄링 중 SJF 기법을 선점형으로 바꾼 스케줄링 기법은?",
+      "answer": "SRT (Shortest Remaining Time)"
+    },
+    {
+      "id": "8bed5d3a-325d-47fc-a73d-03c68e62073f",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "선점형 스케줄링 중 비선점 우선순위 기법을 선점형으로 바꾼 것은?",
+      "answer": "선점 우선순위"
+    },
+    {
+      "id": "c353ca58-4721-413a-96f7-731150bc14c6",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "선점형 스케줄링 중 프로세스의 우선순위에 따라 시스템 프로세스, 대화형 프로세스, 일괄처리 프로세스 등으로 나누어 준비상태 큐를 상위, 중위, 하위 단계로 배치하는 기법은?",
+      "answer": "다단계 큐 (Multi-level Queue)"
+    },
+    {
+      "id": "a8c75998-59bc-49fe-ad28-497d64eb828e",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "선점형 스케줄링 중 다단계 큐의 단점을 보완한 기법으로, 큐마다 timeout을 설정하여 timeout 초과 시 우선순위가 낮은 다음 단계 큐로 이동시키는 기법은?",
+      "answer": "다단계 피드백 큐 (Multi-level Feedback Queue)"
+    },
+    {
+      "id": "eca854cb-c18f-4c81-9fd8-9fd131e1e74b",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "데이터베이스의 상태를 변화시키는 하나의 논리적 기능을 수행하기 위한 작업의 단위 또는 한꺼번에 모두 수행되어야 할 일련의 연산은?",
+      "answer": "트랜잭션 (Transaction)"
+    },
+    {
+      "id": "1ddea8ef-3936-4d29-9683-d12d076f5f0a",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "트랜잭션의 4가지 특성은?",
+      "answer": "ACID\n원자성(Atomicity), 일관성(Consistency), 격리성/독립성(Isolation), 영속성/지속성(Durability)"
+    },
+    {
+      "id": "964a92c3-9cd9-4b70-891e-27f060d830f8",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "트랜잭션의 특성 중 분해가 불가능한 작업의 최소 단위임을 뜻하는 특성은?",
+      "answer": "원자성 (Atomicity)"
+    },
+    {
+      "id": "e6e31dc7-4b6d-420b-98b3-0d45dccab3e6",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "트랜잭션의 특성 중 트랜잭션이 실행 성공 후 항상 일관된 데이터베이스 상태를 보존해야 하는 특성은?",
+      "answer": "일관성 (Consistency)"
+    },
+    {
+      "id": "0ee7216f-3e68-45f8-9185-c389e5bc372f",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "트랜잭션의 특성 중 트랜잭션 실행 중 생성하는 연산의 중간 결과를 다른 트랜잭션이 접근 불가한 특성은?",
+      "answer": "격리성/독립성 (Isolation)"
+    },
+    {
+      "id": "46f91654-1f32-4f10-bf50-71a7cca3c081",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "트랜잭션의 특성 중 성공이 완료된 트랜잭션의 결과는 영속적으로 데이터베이스에 저장하는 특성은?",
+      "answer": "영속성/지속성 (Durability)"
+    },
+    {
+      "id": "57211bcf-9701-4d4a-b70c-2fa721257965",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "TCL 명령어 중 트랜잭션을 확정하여 트랜잭션을 메모리에 영구적으로 저장하는 명령어는?",
+      "answer": "커밋 (COMMIT)"
+    },
+    {
+      "id": "7afcfa8a-d327-49b0-85d6-a90693ee343d",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "TCL 명령어 중 트랜잭션을 취소하여 트랜잭션 내역의 저장을 무효화시키는 명령어는?",
+      "answer": "롤백 (ROLLBACK)"
+    },
+    {
+      "id": "3aa06588-dcaa-437f-b7d6-680ca765bcac",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "TCL 명령어 중 저장 시기를 설정하여 롤백을 위한 시점을 지정하는 명령어는?",
+      "answer": "체크포인트 (CHECKPOINT)"
+    },
+    {
+      "id": "bafa1cd8-93d1-47e8-946e-6fa130a38bff",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "각각의 512bit짜리 입력 메시지 블록에 대해 차례로 동작하여 128bit의 해시값을 생성하는 해시 알고리즘은?",
+      "answer": "MD5 (Message-Digest algorithm 5)"
+    },
+    {
+      "id": "ac32656e-9d8c-4276-8609-aada5a70278c",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "160bit의 해시값을 생성하는 SHA 계열 해시 알고리즘은?",
+      "answer": "SHA-1 (Secure Hash Algorithm)"
+    },
+    {
+      "id": "4650305e-aaae-40b2-a693-0677268374d8",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "SHA 알고리즘의 한 종류로써 256bit의 해시값을 생성하는 해시 함수는?",
+      "answer": "SHA-256"
+    },
+    {
+      "id": "8f4fa906-9616-4c89-8dbd-3d469ec20340",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "국내 표준 서명 알고리즘 KCDSA(Korean Certificate-based Digital Signature Algorithm)를 위하여 개발된 해시 함수는?",
+      "answer": "HAS-160"
+    },
+    {
+      "id": "601efe29-9275-4c03-9e65-1515590885c7",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "다른 모듈과의 의존성의 정도를 뜻하는 것은?",
+      "answer": "결합도 (Coupling)"
+    },
+    {
+      "id": "fb228340-476e-497e-b9b3-7e5a83a24430",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "결합도를 높음(낮은 품질)에서 낮음(좋은 품질)의 순서로 나열하면?",
+      "answer": "내용 결합도 → 공통 결합도 → 외부 결합도 → 제어 결합도 → 스탬프 결합도 → 자료 결합도"
+    },
+    {
+      "id": "34ae4a8c-c394-4f49-a48d-077a408ac7b4",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "다른 모듈 내부에 있는 변수나 기능을 다른 모듈에서 사용하는 경우의 결합도는?",
+      "answer": "내용 결합도 (Content Coupling)"
+    },
+    {
+      "id": "8cb8d975-5f17-4721-9856-ed5d1b40c0d9",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "파라미터가 아닌 모듈 밖에 선언되어 있는 전역 변수를 참조하고, 전역 변수를 갱신하는 식으로 상호작용하는 경우의 결합도는?",
+      "answer": "공통 결합도 (Common Coupling)"
+    },
+    {
+      "id": "7cc9700b-bc59-4a92-b591-05c9a5dbb4e3",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "두 개의 모듈이 외부에서 도입된 데이터 포맷, 통신 프로토콜, 또는 디바이스 인터페이스를 공유할 경우의 결합도는?",
+      "answer": "외부 결합도 (External Coupling)"
+    },
+    {
+      "id": "19c1db40-d3dd-4dd8-a95e-04694dd8184c",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "단순 처리할 대상인 값만 전달되는 게 아니라 어떻게 처리를 해야 한다는 제어 요소가 전달되는 경우의 결합도는?",
+      "answer": "제어 결합도 (Control Coupling)"
+    },
+    {
+      "id": "5f48a377-f855-4991-9141-8d94acfde7ba",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "모듈 간의 인터페이스로 배열이나 객체, 구조 등이 전달되는 경우의 결합도는?",
+      "answer": "스탬프 결합도 (Stamp Coupling)"
+    },
+    {
+      "id": "bc579d22-0c82-4e6d-b579-23dc6e4c3b90",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "모듈 간의 인터페이스로 전달되는 파라미터를 통해서만 모듈 간의 상호작용이 일어나는 경우의 결합도는?",
+      "answer": "자료 결합도 (Data Coupling)"
+    },
+    {
+      "id": "1b3295d9-34c3-44eb-af57-a9c25a4927be",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "모듈에 포함된 내부 요소들이 하나의 책임/목적을 위해 연결되어 있는 연관된 정도를 뜻하는 것은?",
+      "answer": "응집도 (Cohesion)"
+    },
+    {
+      "id": "921397c2-e9c7-4ddf-8840-c2b6c7e4ee2f",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "응집도를 낮음(나쁜 품질)에서 높음(좋은 품질)의 순서로 나열하면?",
+      "answer": "우연적 응집도 → 논리적 응집도 → 시간적 응집도 → 절차적 응집도 → 교환적(통신적) 응집도 → 순차적 응집도 → 기능적 응집도"
+    },
+    {
+      "id": "bf08fad6-0db9-4eda-a2f2-33b35b0defff",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "모듈 내부의 각 구성요소가 연관이 없을 경우의 응집도는?",
+      "answer": "우연적 응집도 (Coincidental Cohesion)"
+    },
+    {
+      "id": "0f1887f8-6abc-4897-80ae-ad91af8d3e12",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "유사한 성격을 갖거나 특정 형태로 분류되는 처리 요소들이 한 모듈에서 처리되는 경우의 응집도는?",
+      "answer": "논리적 응집도 (Logical Cohesion)"
+    },
+    {
+      "id": "3a32ee1b-6723-4f01-b581-611382df01d8",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "연관된 기능이라기보다는 특정 시간에 처리되어야 하는 활동들을 한 모듈에서 처리할 경우의 응집도는?",
+      "answer": "시간적 응집도 (Temporal Cohesion)"
+    },
+    {
+      "id": "e8d9dcf0-219f-4657-be85-612abafc5d4d",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "모듈이 다수의 관련 기능을 가질 때 모듈 안의 구성요소들이 그 기능을 순차적으로 수행할 경우의 응집도는?",
+      "answer": "절차적 응집도 (Procedural Cohesion)"
+    },
+    {
+      "id": "271cd786-34d5-4f69-869d-636a68c0876a",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "동일한 입력과 출력을 사용하여 다른 기능을 수행하는 활동들이 모여 있을 경우의 응집도는?",
+      "answer": "교환적(통신적) 응집도 (Communicational Cohesion)"
+    },
+    {
+      "id": "06bba53c-08c1-4672-87b8-2b5778b54866",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "모듈 내에서 한 활동으로부터 나온 출력값을 다른 활동이 사용할 경우의 응집도는?",
+      "answer": "순차적 응집도 (Sequential Cohesion)"
+    },
+    {
+      "id": "7af76e71-4b37-4c74-8ce7-f0b02acb748e",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "모듈 내부의 모든 기능이 단일한 목적을 위해 수행되는 경우의 응집도는?",
+      "answer": "기능적 응집도 (Functional Cohesion)"
+    },
+    {
+      "id": "d9c0e9ee-1129-43cd-a558-d30d4aa8af2d",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "소프트웨어 제품과 함께 배포되는 문서로, 버전 번호, 새로운 기능, 버그 수정 내역 등을 담는 문서는?",
+      "answer": "릴리즈 노트 (Release Note)"
+    },
+    {
+      "id": "c49c4294-c15e-4db7-99a0-2b6d7358b826",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "릴리즈 노트 작성 항목 중 문서 이름, 제품 이름, 버전 번호, 릴리즈 날짜, 참고 날짜, 노트 버전 등의 정보를 담는 항목은?",
+      "answer": "헤더 (Header)"
+    },
+    {
+      "id": "8f668197-5af9-4417-a355-ceaf458a946d",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "릴리즈 노트 작성 항목 중 제품 및 변경에 대한 간략한 전반적 개요를 담는 항목은?",
+      "answer": "개요"
+    },
+    {
+      "id": "15278d8d-dc03-49af-910c-6bf2cc5ebec9",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "릴리즈 노트 작성 항목 중 릴리스 버전의 새로운 기능 목록과 릴리스 노트의 목적에 대한 개요, 버그 수정 및 새로운 기능을 기술하는 항목은?",
+      "answer": "목적"
+    },
+    {
+      "id": "d5870ace-d417-4f68-b758-acc7bf313c52",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "릴리즈 노트 작성 항목 중 버그의 간단한 설명 또는 릴리즈 추가 항목을 요약하는 항목은?",
+      "answer": "이슈 요약"
+    },
+    {
+      "id": "255d3eac-65ca-459f-8ee9-e49dd5824f35",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "릴리즈 노트 작성 항목 중 버그 발견에 따른 재현 단계를 기술하는 항목은?",
+      "answer": "재현 항목"
+    },
+    {
+      "id": "30d8af4f-c5b8-4302-aa6e-0400bc28261e",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "릴리즈 노트 작성 항목 중 수정·개선의 간단한 설명을 기술하는 항목은?",
+      "answer": "수정·개선 내용"
+    },
+    {
+      "id": "a1c7e6ed-ad95-4501-8ed2-75552dc6615d",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "릴리즈 노트 작성 항목 중 버전 변경에 따른 최종 사용자 기준의 기능 및 응용 프로그램상의 영향도를 기술하는 항목은?",
+      "answer": "사용자 영향도"
+    },
+    {
+      "id": "b5c45e75-61ef-4716-8998-ce837e240635",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "릴리즈 노트 작성 항목 중 버전 변경에 따른 소프트웨어의 지원 프로세스 및 영향도를 기술하는 항목은?",
+      "answer": "소프트웨어 지원 영향도"
+    },
+    {
+      "id": "2cf351f2-0b84-4d82-88ff-568a5a56490f",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "릴리즈 노트 작성 항목 중 소프트웨어 및 하드웨어 설치 항목, 제품 문서를 포함한 업그레이드 항목을 메모하는 항목은?",
+      "answer": "노트"
+    },
+    {
+      "id": "50ebae9a-1849-468e-995d-1e94740c7778",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "릴리즈 노트 작성 항목 중 회사 및 표준 제품과 관련된 메시지, 프리웨어 및 불법 복제 방지, 중복 등 참조에 대한 고지 사항을 담는 항목은?",
+      "answer": "면책 조항"
+    },
+    {
+      "id": "d62270d1-5e8f-4e42-a13a-6a78d101278e",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "릴리즈 노트 작성 항목 중 사용자 지원 및 문의에 관련한 연락처 정보를 담는 항목은?",
+      "answer": "연락 정보"
+    },
+    {
+      "id": "6e755f0c-36d0-438d-b8b0-ff910d66afa2",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "시스템의 성능 향상, 개발 및 운영의 편의성 등을 위해 정규화된 데이터 모델을 통합, 중복, 분리하는 과정으로 의도적으로 정규화 원칙을 위배하는 행위는?",
+      "answer": "반정규화 (De-normalization)"
+    },
+    {
+      "id": "9296b339-6c31-4827-b795-f448587efa69",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "반정규화 기법 중 1:1 관계, 1:M 관계를 통합하여 조인 횟수를 줄여 성능을 향상시키는 기법은?",
+      "answer": "테이블 병합"
+    },
+    {
+      "id": "53723593-af78-4111-8961-cc6d96b3022f",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "반정규화 기법 중 테이블을 수직 또는 수평으로 분할하는 것으로 파티셔닝이라고도 하는 기법은?",
+      "answer": "테이블 분할"
+    },
+    {
+      "id": "bd873701-8311-4bed-8c5e-5cb4e987b1bc",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "반정규화 기법 중 대량의 데이터들에 대한 집계 함수(GROUP BY, SUM 등)를 사용하여 실시간 통계 정보를 계산하는 경우에 효과적인 수행을 위해 별도의 통계 테이블을 두거나 테이블을 추가하는 기법은?",
+      "answer": "중복 테이블 추가"
+    },
+    {
+      "id": "e3cc0774-b654-4fe5-b2b8-4ea0b55446b6",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "반정규화 기법 중 조인 성능 향상을 위해 컬럼의 중복을 허용하는 기법은?",
+      "answer": "컬럼 중복화"
+    },
+    {
+      "id": "f10308db-c8a6-41e2-9685-836558627fcd",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "반정규화 기법 중 데이터를 처리하기 위한 여러 경로를 거쳐 조인이 가능하지만, 이때 발생할 수 있는 성능 저하를 예방하기 위해 추가적 관계를 맺는 기법은?",
+      "answer": "중복 관계 추가"
+    },
+    {
+      "id": "cdbc0d88-fc6f-4892-a2c3-ea138225fa6c",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "국제 표준화 기구인 ISO에서 개발한 컴퓨터 네트워크 프로토콜 디자인과 통신을 계층으로 나누어 설명한 개방형 시스템 상호 연결 모델은?",
+      "answer": "OSI 7계층 (OSI 7 Layer)"
+    },
+    {
+      "id": "df5216ff-e3f6-472c-8663-510a662c3f73",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "OSI 7계층 중 사용자와 네트워크 간 응용서비스를 연결하고 데이터를 생성하는 계층은?",
+      "answer": "응용 계층 (Application Layer)"
+    },
+    {
+      "id": "7017c3af-4dd9-4665-a193-748019d97e51",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "OSI 7계층 중 데이터 형식 설정, 부호 교환, 암·복호화를 담당하는 계층은?",
+      "answer": "표현 계층 (Presentation Layer)"
+    },
+    {
+      "id": "6c78e5da-542c-4b9a-9ea7-913669f9f067",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "OSI 7계층 중 송수신 간의 논리적 연결을 담당하며, 연결 접속과 동기 제어를 수행하는 계층은?",
+      "answer": "세션 계층 (Session Layer)"
+    },
+    {
+      "id": "49cb000f-87e2-4b9a-980c-6b3e58b73a6d",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "OSI 7계층 중 송수신 프로세스 간의 연결과 신뢰성 있는 통신을 보장하며, 데이터 분할, 재조립, 흐름 제어, 오류 제어, 혼잡 제어를 수행하는 계층은?",
+      "answer": "전송 계층 (Transport Layer)"
+    },
+    {
+      "id": "6614bee2-be32-49bd-b64d-75fc4cc96a90",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "OSI 7계층 중 단말기 간 데이터를 전송하기 위한 최적화된 경로를 제공하는 계층은?",
+      "answer": "네트워크 계층 (Network Layer)"
+    },
+    {
+      "id": "61ad4367-63f2-414d-b309-4d96a31ebd0d",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "OSI 7계층 중 인접 시스템 간 데이터 전송과 전송 오류 제어를 담당하며, 동기화, 오류 제어, 흐름 제어, 회선 제어를 수행하는 계층은?",
+      "answer": "데이터링크 계층 (DataLink Layer)"
+    },
+    {
+      "id": "7c36a3ad-ddd5-4c0a-9481-0ea33d8be55c",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "OSI 7계층 중 0과 1의 비트 정보를 회선에 보내기 위한 전기적 신호 변환을 담당하는 계층은?",
+      "answer": "물리 계층 (Physical Layer)"
+    },
+    {
+      "id": "d8767d52-e203-4102-b33a-59d3db81fb79",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "애플리케이션 성능 측정 지표 4가지는?",
+      "answer": "처리량(Throughput), 응답 시간(Response Time), 경과 시간(Turnaround Time), 자원 사용률(Resource Usage)"
+    },
+    {
+      "id": "35908321-c935-4d4e-a771-f1351d349bd8",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "애플리케이션 성능 측정 지표 중 애플리케이션이 주어진 시간에 처리할 수 있는 트랜잭션의 수는?",
+      "answer": "처리량 (Throughput)"
+    },
+    {
+      "id": "51ed0025-da74-4165-ba63-ac33905a82a9",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "애플리케이션 성능 측정 지표 중 사용자 입력이 끝난 후, 애플리케이션의 응답 출력이 개시될 때까지의 시간은?",
+      "answer": "응답 시간 (Response Time)"
+    },
+    {
+      "id": "3a835436-22ec-40e0-96b0-24fecff53dda",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "애플리케이션 성능 측정 지표 중 애플리케이션에 사용자가 요구를 입력한 시점부터 트랜잭션을 처리 후 그 결과의 출력이 완료할 때까지 걸리는 시간은?",
+      "answer": "경과 시간 (Turnaround Time)"
+    },
+    {
+      "id": "8b0bdad9-e2f0-4922-b392-48404384a62d",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "애플리케이션 성능 측정 지표 중 애플리케이션이 트랜잭션을 처리하는 동안 사용하는 CPU 사용량, 메모리 사용량, 네트워크 사용량은?",
+      "answer": "자원 사용률 (Resource Usage)"
+    },
+    {
+      "id": "95ed3999-fd33-4d58-89f8-b4a658704d73",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "각종 재해나 재난 발생에 대비하여 핵심 업무 기능 수행의 연속성을 유지하여 고객 서비스의 지속성 보장과 고객에 대한 신뢰도를 높이는 신속한 절차와 체계를 구축하는 방법론은?",
+      "answer": "BCP (Business Continuity Plan, 비즈니스 연속성 계획)"
+    },
+    {
+      "id": "9c1a15b0-c729-4194-a266-f83906eb6315",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "장애나 재해로 인해 운영상의 주요 손실을 볼 것을 가정하여 시간 흐름에 따른 영향도 및 손실 평가를 조사하는, BCP를 구축하기 위한 비즈니스 영향 분석은?",
+      "answer": "BIA (Business Impact Analysis)"
+    },
+    {
+      "id": "6a3c09c4-c04a-45fe-a35d-22440ccd8feb",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "업무 중단 시점부터 업무가 복구되어 다시 가동될 때까지의 시간은?",
+      "answer": "RTO (Recovery Time Objective)"
+    },
+    {
+      "id": "7487e3b9-d021-4762-82e2-2bc7bb403e07",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "업무 중단 시점부터 데이터가 복구되어 다시 정상 가동될 때 데이터의 손실 허용 시점은?",
+      "answer": "RPO (Recovery Point Objective)"
+    },
+    {
+      "id": "963671cc-c716-4883-a8c2-da3662559489",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "재난으로 장기간에 걸쳐 시설의 운영이 불가능한 경우를 대비한 재난 복구 계획은?",
+      "answer": "DRP (Disaster Recovery Plan)"
+    },
+    {
+      "id": "36a0491f-9115-475b-8a6d-91c31b2fb726",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "재해 복구 계획의 원활한 수행을 지원하기 위하여 평상시에 확보하여 두는 인적·물적 자원 및 이들에 대한 지속적인 관리 체계가 통합된 재해 복구 센터는?",
+      "answer": "DRS (Disaster Recovery System)"
+    },
+    {
+      "id": "3853957e-fae2-4970-9ada-4f7eb9bf63ca",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "전체 시스템을 기능에 따라 나누어 개발하고, 이를 통합하는 분할과 정복 접근 방식의 개발 방법론은?",
+      "answer": "구조적 방법론 (Structured Development)"
+    },
+    {
+      "id": "9053ca22-628a-4035-a9e3-f784077fc7ab",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "정보시스템 개발에 필요한 관리 절차와 작업 기반을 체계화한 개발 방법론은?",
+      "answer": "정보공학 방법론 (Information Engineering Development)"
+    },
+    {
+      "id": "f0c02151-9840-46ed-93a7-a24fcb7fc078",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "'객체'라는 기본 단위로 시스템을 분석 및 설계하는 개발 방법론은?",
+      "answer": "객체지향 방법론 (Object-Oriented Development)"
+    },
+    {
+      "id": "42c06f62-3fc6-437d-9477-305e4dcb0ab1",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "소프트웨어를 구성하는 컴포넌트를 조립해서 하나의 새로운 응용 프로그램을 작성하는 개발 방법론은?",
+      "answer": "컴포넌트 기반 방법론 (CBD, Component Based Development)"
+    },
+    {
+      "id": "7d47c7c1-b499-45a6-8fa7-613f044c43dd",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "절차보다는 사람이 중심이 되어 변화에 유연하고 신속하게 적응하면서 효율적으로 시스템을 개발할 수 있는 신속 적응적 경량 개발 방법론은?",
+      "answer": "애자일 방법론 (Agile Development)"
+    },
+    {
+      "id": "f62ed9a3-b7e9-41e1-b98b-d40cf62ae36d",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "특정 제품에 적용하고 싶은 공통된 기능을 정의하여 개발하는 개발 방법론은?",
+      "answer": "제품 계열 방법론 (Product Line Development)"
+    },
+    {
+      "id": "baaded75-0531-4bdf-a393-e0ab02fc2dfa",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "IP 계층(3계층)에서 무결성과 인증을 보장하는 인증 헤더(AH)와 기밀성을 보장하는 암호화(ESP)를 이용한 IP 보안 프로토콜은?",
+      "answer": "IPSec"
+    },
+    {
+      "id": "875942eb-ed05-4b7f-b18c-00fe22eb1f13",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "IPSec의 주요 프로토콜 3가지는?",
+      "answer": "인증(AH), 암호화(ESP), 키 관리(IKE)"
+    },
+    {
+      "id": "ae09c088-b374-4c6c-acdc-ce6bbc173a91",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "IPSec 프로토콜 중 메시지 인증 코드(MAC)를 이용하여 인증과 송신처 인증을 제공하지만 기밀성(암호화)은 제공하지 않는 프로토콜은?",
+      "answer": "AH (Authentication Header)"
+    },
+    {
+      "id": "0c60a836-e0e8-4543-b159-be892c18ee00",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "IPSec 프로토콜 중 메시지 인증 코드(MAC)와 암호화를 이용하여 인증, 송신처 인증, 기밀성을 제공하는 프로토콜은?",
+      "answer": "ESP (Encapsulating Security Payload)"
+    },
+    {
+      "id": "e4f5c8e8-5c20-4bff-94e2-9452773396d2",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "IPSec 프로토콜 중 Key를 주고받는 알고리즘으로, 공개된 네트워크를 통하여 Key를 어떻게 할 것인가를 정의하는 프로토콜은?",
+      "answer": "IKE (Internet Key Exchange)"
+    },
+    {
+      "id": "ffb19cfb-79c7-44ae-b0da-b47b1a6cd1d2",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "소프트웨어를 설계할 때 특정 맥락에서 자주 발생하는 고질적인 문제들이 또 발생했을 때 재사용할 수 있는 훌륭한 해결책은?",
+      "answer": "디자인 패턴 (Design Pattern)"
+    },
+    {
+      "id": "88501096-b073-4010-a59e-168f25a90a8d",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "디자인 패턴의 3가지 분류는?",
+      "answer": "생성 패턴, 구조 패턴, 행위 패턴"
+    },
+    {
+      "id": "272287fe-7f94-4340-b766-3b71341e42fd",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "디자인 패턴 분류 중 객체 생성에 관련된 패턴은?",
+      "answer": "생성 패턴 (Creational Pattern)"
+    },
+    {
+      "id": "507130ce-27df-4a6b-b6d4-c1eca7c93b4f",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "디자인 패턴 분류 중 클래스나 객체를 조합해 더 큰 구조를 만드는 패턴은?",
+      "answer": "구조 패턴 (Structural Pattern)"
+    },
+    {
+      "id": "ee4a80ea-2aae-4b9f-a4a6-55b34fb33b33",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "디자인 패턴 분류 중 객체나 클래스 사이의 알고리즘이나 책임 분배에 관련된 패턴은?",
+      "answer": "행위 패턴 (Behavioral Pattern)"
+    },
+    {
+      "id": "2ce1e6d1-fb5e-4aaa-a44b-26e3ca9b0a4e",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "객체 수가 많아져 서로 간 통신이 복잡해지면 느슨한 결합의 특성을 해칠 수 있기에, 중간에서 이를 통제하고 지시하는 객체를 두고 그 객체에게 모든 것을 요구하여 통신의 빈도를 줄이는 행위 패턴은?",
+      "answer": "중재자 (Mediator)"
+    },
+    {
+      "id": "451b05b5-4d13-42e5-a228-fc7831054906",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "언어의 다양한 해석을 위해 구문을 나누고, 그 분리된 구문의 해석을 맡는 클래스를 각각 작성하여 여러 형태의 언어 구문을 해석할 수 있게 만드는 행위 패턴은?",
+      "answer": "인터프리터 (Interpreter)"
+    },
+    {
+      "id": "1d60d350-0656-41d0-af0e-a9e2264fd151",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "컬렉션 구현 방법을 노출시키지 않으면서도 그 집합체 안에 들어가 있는 모든 항목에 접근할 방법을 제공하는 행위 패턴은?",
+      "answer": "반복자 (Iterator)"
+    },
+    {
+      "id": "e8568cf9-62ff-4eca-95b5-3119199ad58a",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "어떤 작업을 처리하는 일부분을 서브 클래스로 캡슐화해 전체 일을 수행하는 구조는 바꾸지 않으면서 특정 단계에서 수행하는 내역을 바꾸는 행위 패턴은?",
+      "answer": "템플릿 메소드 (Template Method)"
+    },
+    {
+      "id": "f8b187af-bad6-4742-967e-9f55bb5a2e69",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들에 연락이 가고 자동으로 내용이 갱신되는 행위 패턴은?",
+      "answer": "옵서버 (Observer)"
+    },
+    {
+      "id": "dbc61c1a-bd4a-41c1-8417-e18b1448392a",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "객체 상태를 캡슐화하여 클래스화함으로써 그것을 참조하게 하는 방식의 행위 패턴은?",
+      "answer": "상태 (State)"
+    },
+    {
+      "id": "7ee3889f-eadb-4d8e-be88-1ca1a9825a33",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "각 클래스 데이터 구조로부터 처리 기능을 분리하여 별도의 클래스를 만들어 놓고, 해당 클래스의 메서드가 각 클래스를 돌아다니며 특정 작업을 수행하도록 만드는 행위 패턴은?",
+      "answer": "방문자 (Visitor)"
+    },
+    {
+      "id": "a26fb970-13ea-4df0-ba74-e5c2b05a2023",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "실행될 기능을 캡슐화함으로써 주어진 여러 기능을 실행할 수 있는 재사용성이 높은 클래스를 설계하는 행위 패턴은?",
+      "answer": "커맨드 (Command)"
+    },
+    {
+      "id": "4dd98e8a-3504-4706-a988-160c521bab53",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "알고리즘 군을 정의하고(추상 클래스) 같은 알고리즘을 각각 하나의 클래스로 캡슐화한 다음, 필요할 때 서로 교환해서 사용할 수 있게 하는 행위 패턴은?",
+      "answer": "전략 (Strategy)"
+    },
+    {
+      "id": "662fc853-0971-40d6-b9a2-4e7da537f462",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "클래스 설계 관점에서 객체의 정보를 저장할 필요가 있을 때 적용하는 행위 패턴은?",
+      "answer": "메멘토 (Memento)"
+    },
+    {
+      "id": "8f3eb23a-11fe-4007-b40e-715a7f4083de",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "정적으로 하드 코딩되어 변경이 불가능한 기능 처리의 연결을, 동적으로 연결하여 경우에 따라 다르게 처리될 수 있도록 하는 행위 패턴은?",
+      "answer": "책임 연쇄 (Chain of Responsibility)"
+    },
+    {
+      "id": "4bb50414-a0da-462a-be30-7a0994919487",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "구글에서 개발한 리눅스 기반 모바일 운영체제로, 휴대용 장치를 위한 운영체제와 미들웨어, 사용자 인터페이스, 표준 응용 프로그램 등을 포함하는 소프트웨어 스택은?",
+      "answer": "안드로이드 (Android)"
+    },
+    {
+      "id": "309d0ccc-5f52-488b-b9fd-259f596c1155",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "안드로이드의 4가지 특징은?",
+      "answer": "리눅스 기반, 자바와 코틀린 언어, 런타임 라이브러리, 안드로이드 소프트웨어 개발(도구와 API 제공)"
+    },
+    {
+      "id": "db675b20-4dfb-49b3-a891-866e0d678413",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "검증되지 않은 외부 입력 데이터가 포함된 웹 페이지가 전송되는 경우, 사용자가 해당 웹 페이지를 열람함으로써 웹 페이지에 포함된 부적절한 스크립트가 실행되는 공격은?",
+      "answer": "XSS (Cross Site Scripting)"
+    },
+    {
+      "id": "c859c91c-61ff-4d62-a2c4-0ae7598293f1",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "사용자가 자신의 의지와는 무관하게 공격자가 의도한 행위를 특정 웹 사이트에 요청하게 하는 공격은?",
+      "answer": "CSRF (Cross-Site Request Forgery, 사이트 간 요청 위조)"
+    },
+    {
+      "id": "f5735a5e-b2ad-4bd4-b9ce-041d58faf5d2",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "응용 프로그램의 보안 취약점을 이용해서 악의적인 SQL 구문을 삽입, 실행시켜서 데이터베이스의 접근을 통해 정보를 탈취하거나 조작 등을 행하는 공격 기법은?",
+      "answer": "SQL 삽입 (SQL Injection)"
+    },
+    {
+      "id": "7a48f1bc-a586-40cc-b3a5-69dce9c6d6a7",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "UI 설계 원칙 4가지는?",
+      "answer": "직관성(Intuitiveness), 유효성(Efficiency), 학습성(Learnability), 유연성(Flexibility)"
+    },
+    {
+      "id": "8e9dc05f-2423-44d2-a981-0eb90581e619",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "UI 설계 원칙 중 누구나 쉽게 이해하고, 쉽게 사용할 수 있어야 한다는 원칙은?",
+      "answer": "직관성 (Intuitiveness)"
+    },
+    {
+      "id": "964dcf02-b558-48bb-a1c8-a862473c25d3",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "UI 설계 원칙 중 정확하고 완벽하게 사용자의 목표가 달성될 수 있도록 제작해야 한다는 원칙은?",
+      "answer": "유효성 (Efficiency)"
+    },
+    {
+      "id": "5f6d29c4-80e0-46f6-b390-c8345baeadec",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "UI 설계 원칙 중 초보와 숙련자 모두가 쉽게 배우고 사용할 수 있게 제작해야 한다는 원칙은?",
+      "answer": "학습성 (Learnability)"
+    },
+    {
+      "id": "d9845767-7ae6-4dac-bbd9-6b1c286b222c",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "UI 설계 원칙 중 사용자의 인터랙션을 최대한 포용하고, 실수를 방지할 수 있도록 제작해야 한다는 원칙은?",
+      "answer": "유연성 (Flexibility)"
+    },
+    {
+      "id": "ba69eec1-7b1a-490b-a45d-1e096a023a09",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "데이터 모델링의 절차를 순서대로 나열하면?",
+      "answer": "개념적 데이터 모델링 → 논리적 데이터 모델링 → 물리적 데이터 모델링"
+    },
+    {
+      "id": "231ebfc3-d227-4a3d-a12f-fb26483fbb51",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "데이터 모델링의 3가지 구성요소는?",
+      "answer": "개체(Entity), 속성(Attribute), 관계(Relation)"
+    },
+    {
+      "id": "36755d7d-4668-4c1d-9cdc-d57d02e6d66b",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "현실 세계에 대한 인식을 추상적, 개념적으로 표현하여 개념적 구조를 도출하는 데이터 모델은?",
+      "answer": "개념적 데이터 모델 (Conceptual Data Modeling)"
+    },
+    {
+      "id": "fa7885d0-9947-4d79-9c43-aac1510756d8",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "업무의 모습을 모델링 표기법으로 형상화하여 사람이 이해하기 쉽게 표현한 데이터 모델은?",
+      "answer": "논리적 데이터 모델 (Logical Data Modeling)"
+    },
+    {
+      "id": "822e1e3d-5b4f-47f6-ac42-735526d731cd",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "논리 데이터 모델을 특정 DBMS의 특성 및 성능을 고려하여 물리적인 스키마를 만드는 일련의 데이터 모델은?",
+      "answer": "물리적 데이터 모델 (Physical Data Modeling)"
+    },
+    {
+      "id": "7f1a7cc5-91be-46b1-9eee-630c74b7b439",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "소프트웨어 개발을 위한 전체 과정에서 발생하는 모든 항목의 변경 사항을 관리하기 위한 활동은?",
+      "answer": "형상 관리 (SCM, Software Configuration Management)"
+    },
+    {
+      "id": "63baa3c8-28e0-4d63-9f25-9717c1e014fc",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "형상 관리의 절차를 순서대로 나열하면?",
+      "answer": "형상 식별 → 형상 통제 → 형상 감사 → 형상 기록"
+    },
+    {
+      "id": "8fc3d4a9-a9f6-4e38-bc25-f581434568e3",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "형상 관리 절차 중 형상 관리 대상을 정의 및 식별하는 활동은?",
+      "answer": "형상 식별"
+    },
+    {
+      "id": "25de3dcc-9d07-4d13-8612-d4bf8bc6c756",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "형상 관리 절차 중 형상 항목의 버전 관리를 위한 형상통제위원회를 운영하는 활동은?",
+      "answer": "형상 통제"
+    },
+    {
+      "id": "2941b3f9-0b0e-4c90-8e3e-8431359acc81",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "형상 관리 절차 중 소프트웨어 베이스라인의 무결성을 평가하는 활동은?",
+      "answer": "형상 감사"
+    },
+    {
+      "id": "d2107dc7-0f1e-4e9a-a241-0ca2244c8ab5",
+      "categoryId": "5e445997-80e4-4412-bd48-adb05bb93156",
+      "question": "형상 관리 절차 중 소프트웨어 형상 및 변경 관리에 대한 각종 수행 결과를 기록하는 활동은?",
+      "answer": "형상 기록"
+    },
+    {
+      "id": "853e6334-b5ea-4cfa-81f5-5af2e6bd77f9",
+      "categoryId": "f4764e5f-4042-445f-b102-52b1a57a808f",
+      "question": "비트 중심의 데이터 링크 제어 프로토콜로, 프레임 단위로 데이터를 전송하며 흐름 제어 및 오류 복구 기능을 제공하는 것은?",
+      "answer": "HDLC"
+    },
+    {
+      "id": "088450d8-1041-4465-b02d-261b143cb5d5",
+      "categoryId": "f4764e5f-4042-445f-b102-52b1a57a808f",
+      "question": "HDLC 프레임의 구성 단위로, 실제 사용자 데이터를 전송하는 프레임은?",
+      "answer": "I-프레임 (Information)"
+    },
+    {
+      "id": "d0673452-4f82-400e-9627-7485b0ba8e61",
+      "categoryId": "f4764e5f-4042-445f-b102-52b1a57a808f",
+      "question": "데이터 링크의 흐름을 관리하고 오류 제어 및 통신 상태를 감시하는 HDLC 프레임은?",
+      "answer": "S-프레임 (Supervisory)"
+    },
+    {
+      "id": "4e769dd4-f356-4933-a928-4f0f199cee75",
+      "categoryId": "f4764e5f-4042-445f-b102-52b1a57a808f",
+      "question": "순서 번호 없이 링크 설정, 해제, 모드 설정 등 제어 기능을 수행하는 HDLC 프레임은?",
+      "answer": "U-프레임 (Unnumbered)"
+    },
+    {
+      "id": "45c3ddb9-e302-4016-9694-51ed6395efac",
+      "categoryId": "f4764e5f-4042-445f-b102-52b1a57a808f",
+      "question": "종국(Secondary)이 주국(Primary)의 허가를 받아야만 데이터를 전송할 수 있는 HDLC 모드는?",
+      "answer": "NRM (표준 응답 모드)"
+    },
+    {
+      "id": "f9101e17-60ae-44a2-97bf-9742c420823c",
+      "categoryId": "f4764e5f-4042-445f-b102-52b1a57a808f",
+      "question": "종국이 주국의 허가 없이도 자발적으로 응답을 전송할 수 있는 HDLC 모드는?",
+      "answer": "ARM (비동기 응답 모드)"
+    },
+    {
+      "id": "2ece7dbf-14ac-456b-81f7-409612d3edc5",
+      "categoryId": "f4764e5f-4042-445f-b102-52b1a57a808f",
+      "question": "두 국(Station)이 동등한 위치에서 서로 명령과 응답을 주고받는 HDLC 모드는?",
+      "answer": "ABM (비동기 균형 모드)"
+    },
+    {
+      "id": "eef2e0c9-dd7f-4e8e-8937-c7e96c881a9d",
+      "categoryId": "f4764e5f-4042-445f-b102-52b1a57a808f",
+      "question": "데이터에 1이 5개 연속으로 나오면 그 뒤에 0을 하나 삽입해, 데이터가 플래그와 혼동되지 않게 하는 기법은?",
+      "answer": "비트 스터핑"
+    },
+    {
+      "id": "105f9cde-cca9-4427-a5a7-d827db781525",
+      "categoryId": "f4764e5f-4042-445f-b102-52b1a57a808f",
+      "question": "HDLC 프레임의 시작과 끝을 나타내는 비트 패턴 01111110은?",
+      "answer": "플래그"
+    },
+    {
+      "id": "aa5f04e8-e247-453d-a513-391bf7df2b98",
+      "categoryId": "56ab5fce-fcac-4835-bcb7-d0b25657e60a",
+      "question": "시스템은 연속 1,000시간 동안 오류 없이 동작해야 하며, 장애 발생 빈도는 월 1회 이하여야 한다. 이 비기능 요구사항의 유형은?",
+      "answer": "신뢰성"
+    },
+    {
+      "id": "ad9e6cc2-f4b8-481e-af50-c4ca18b767c1",
+      "categoryId": "56ab5fce-fcac-4835-bcb7-d0b25657e60a",
+      "question": "시스템은 연중 99.9% 이상 중단 없이 사용할 수 있어야 하고, 장애 발생 시 30분 이내에 복구되어야 한다. 이 비기능 요구사항의 유형은?",
+      "answer": "가용성"
+    },
+    {
+      "id": "1cc9f65a-6e42-4e1d-ba2d-b8155cbd6f1b",
+      "categoryId": "56ab5fce-fcac-4835-bcb7-d0b25657e60a",
+      "question": "시스템 운영 중 로그 관리 및 모니터링 기능을 제공해야 하며, 매일 백업을 수행해야 한다. 이 비기능 요구사항의 유형은?",
+      "answer": "운영"
+    },
+    {
+      "id": "2dece77c-fb0f-4453-8b36-0f735ce8528c",
+      "categoryId": "56ab5fce-fcac-4835-bcb7-d0b25657e60a",
+      "question": "기능을 수정하거나 추가할 때 다른 모듈에 영향이 적도록 모듈 단위로 분리해 설계해야 한다. 이 비기능 요구사항의 유형은?",
+      "answer": "유지보수성"
+    },
+    {
+      "id": "d4882271-26f9-42dd-a15d-5acc89079bc2",
+      "categoryId": "56ab5fce-fcac-4835-bcb7-d0b25657e60a",
+      "question": "시스템 운영 시 최소 메모리 8GB를 확보해야 하며, CPU 사용량은 제한 범위 내에 있어야 한다. 이 비기능 요구사항의 유형은?",
+      "answer": "자원"
+    },
+    {
+      "id": "64b3c1d2-b239-43e5-a717-358e283b068b",
+      "categoryId": "56ab5fce-fcac-4835-bcb7-d0b25657e60a",
+      "question": "사용자 요청에 대한 응답 시간은 최대 3초를 넘지 않아야 하며, 동시 사용자 1,000명을 처리해야 한다. 이 비기능 요구사항의 유형은?",
+      "answer": "성능"
+    },
+    {
+      "id": "188362bf-52bf-4083-80f5-38526306c1f8",
+      "categoryId": "56ab5fce-fcac-4835-bcb7-d0b25657e60a",
+      "question": "시스템은 윈도우와 리눅스 모두에서 동작해야 하며, 다른 DBMS로 교체하더라도 수정 없이 사용할 수 있어야 한다. 이 비기능 요구사항의 유형은?",
+      "answer": "이식성"
+    },
+    {
+      "id": "68b198bf-876a-40a2-96b1-fb362b7b4c01",
+      "categoryId": "56ab5fce-fcac-4835-bcb7-d0b25657e60a",
+      "question": "모든 사용자는 로그인 후에만 접근할 수 있어야 하며, 개인정보는 암호화하여 저장해야 한다. 이 비기능 요구사항의 유형은?",
+      "answer": "보안"
+    },
+    {
+      "id": "eb9deb61-12a5-4c6d-b06c-f65b4e5e7550",
+      "categoryId": "56ab5fce-fcac-4835-bcb7-d0b25657e60a",
+      "question": "시스템은 관련 표준과 규격을 준수해야 하며, 정해진 품질 기준을 만족해야 한다. 이 비기능 요구사항의 유형은?",
+      "answer": "품질"
     }
   ]
 }
